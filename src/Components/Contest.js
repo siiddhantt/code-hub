@@ -6,7 +6,7 @@ function Contest(props) {
     let etime = new Date(props.data.end_time).toLocaleString();
     return (
         <div className="p-4 md:w-1/3 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-200 ">
-            <div className="flex rounded-lg h-full bg-stone-900 bg-opacity-60 p-8 flex-col shadow-2xl">
+            <div className="flex rounded-lg h-full bg-stone-900 bg-opacity-60 p-8 flex-col shadow-xl">
                 <div className="flex items-center mb-3 ">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-green-500 text-white flex-shrink-0">
                         <img className='rounded-lg' alt='' src={path}></img>
